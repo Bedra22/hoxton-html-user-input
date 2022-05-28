@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  
+
+  
+  
+  .main {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    
+  }
+  
+  .hije {
+    position: absolute;
+    background: linear-gradient(rgb(147, 60, 185), rgb(161, 78, 161), rgb(160, 104, 160));
+    border-radius: 10px;
+    width: 428px;
+    height:590px;
+    margin-top: 5px;
+    margin-left: 590px;
+    filter: blur(20px);
+  }
+  
+  form {
+    display: grid;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    background-color:white;
+    width: 400px;
+    height: 560;
+    margin-left: 600px;
+    margin-top: 100px;
+    position: relative;
+  }
+  
+  form h1{
+    margin-left: 60px;
+    color: rgb(161, 78, 161);
+  }
+  label{
+    display: grid;
+    border-bottom: 1px solid gainsboro;
+    gap: 0.5rem;
+    font-size: 15px;
+    padding-bottom:10px ;
+    color:rgb(73, 73, 73);
+  }
+  input,
+  select,
+  textarea{
+    border: none; 
+    padding: 0.2rem;
+    color:rgb(181, 181, 181);
+  }
+  button{
+    border:none ;
+    border-radius: 40px;
+    background-color:  rgb(229, 146, 229)  ;
+    padding: 15px;
+    color: white;
+
+  }
+  textarea{
+    resize: none;
+  }
+  .item {
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    border-bottom: none;
+  }
